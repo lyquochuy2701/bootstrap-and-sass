@@ -1,0 +1,145 @@
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url("../fonts/HelveticaNeue.eot");
+  src: url("../fonts/HelveticaNeue.eot") format("embedded-opentype"), url("../fonts/HelveticaNeue.woff2") format("woff2"), url("../fonts/HelveticaNeue.woff") format("woff"), url("../fonts/HelveticaNeue.ttf") format("truetype"), url("../fonts/HelveticaNeue.svg#HelveticaNeue") format("svg"); }
+@font-face {
+  font-family: 'helveticaneuebold';
+  src: url("../fonts/helveticaneuebold.eot");
+  src: url("../fonts/helveticaneuebold.eot") format("embedded-opentype"), url("../fonts/helveticaneuebold.woff2") format("woff2"), url("../fonts/helveticaneuebold.woff") format("woff"), url("../fonts/helveticaneuebold.ttf") format("truetype"), url("../fonts/helveticaneuebold.svg#helveticaneuebold") format("svg"); }
+.wrapperContainer {
+  background: url("../images/backgroundMain.png") no-repeat;
+  font-family: 'HelveticaNeue';
+  height: auto;
+  min-height: 640px;
+  background-size: cover; }
+  .wrapperContainer .mainContent {
+    padding-top: 20px; }
+    .wrapperContainer .mainContent .leftContent {
+      padding-left: 30px; }
+      .wrapperContainer .mainContent .leftContent h2 img {
+        margin-left: -10px; }
+      .wrapperContainer .mainContent .leftContent h3 {
+        font-family: 'helveticaneuebold';
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #166986;
+        margin-top: 105px;
+        margin-bottom: 16px; }
+        .wrapperContainer .mainContent .leftContent h3 span {
+          font-family: 'HelveticaNeue';
+          font-size: 2.5rem; }
+      .wrapperContainer .mainContent .leftContent h4 {
+        font-family: 'helveticaneuebold';
+        font-size: 1.875rem;
+        font-weight: bold;
+        color: #166986;
+        margin-bottom: 24px; }
+        .wrapperContainer .mainContent .leftContent h4 span {
+          font-family: 'HelveticaNeue';
+          font-size: 1.5rem; }
+      .wrapperContainer .mainContent .leftContent p {
+        font-family: 'HelveticaNeue';
+        color: #103e58;
+        font-size: 18px;
+        line-height: 22px; }
+    .wrapperContainer .mainContent .rightContent form {
+      background-color: rgba(190, 198, 196, 0.4);
+      padding: 40px 40px;
+      width: 428px;
+      margin-left: 62px; }
+      .wrapperContainer .mainContent .rightContent form h1 {
+        font-family: 'helveticaneuebold';
+        font-size: 36px;
+        color: #383b43; }
+      .wrapperContainer .mainContent .rightContent form h4 {
+        font-family: 'HelveticaNeue';
+        color: #383b43;
+        font-size: 18px; }
+      .wrapperContainer .mainContent .rightContent form input {
+        font-family: 'HelveticaNeue';
+        background: transparent; }
+      .wrapperContainer .mainContent .rightContent form p#birthday {
+        margin-top: 2px;
+        font-family: 'HelveticaNeue';
+        font-size: 15px; }
+      .wrapperContainer .mainContent .rightContent form .selectDateWrapper {
+        margin-top: -6px; }
+        .wrapperContainer .mainContent .rightContent form .selectDateWrapper .datethreeField {
+          appearance: none;
+          -moz-appearance: none;
+          -webkit-appearance: none;
+          border: 1px solid rgba(0, 0, 0, 0.15);
+          border-radius: 6px;
+          display: inline-block;
+          margin: 0;
+          overflow: hidden;
+          padding: 10px 0;
+          vertical-align: middle;
+          font-family: 'HelveticaNeue';
+          color: #464a4c;
+          width: 79px;
+          padding-left: 5px;
+          background: transparent url("../images/select.png") no-repeat scroll 55px 16px; }
+      .wrapperContainer .mainContent .rightContent form .form-group .genderWrapper {
+        margin-top: -10px;
+        font-family: 'HelveticaNeue';
+        color: #464a4c; }
+        .wrapperContainer .mainContent .rightContent form .form-group .genderWrapper .columnMale {
+          margin-left: -35px; }
+      .wrapperContainer .mainContent .rightContent form .country select {
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 6px;
+        display: inline-block;
+        margin: 0;
+        overflow: hidden;
+        padding: 10px 0;
+        vertical-align: middle;
+        font-family: 'HelveticaNeue';
+        color: #464a4c;
+        margin-top: -10px;
+        font-family: 'HelveticaNeue';
+        color: #464a4c;
+        padding-left: 5px;
+        background: url(../images/select.png) no-repeat 252px 14px; }
+      .wrapperContainer .mainContent .rightContent form .rulesText {
+        font-family: 'HelveticaNeue';
+        font-size: 14px;
+        color: #464a4c; }
+        .wrapperContainer .mainContent .rightContent form .rulesText a {
+          color: #166986; }
+      .wrapperContainer .mainContent .rightContent form #createAccount {
+        background: #166986;
+        width: 218px;
+        height: 44px;
+        margin: 0 auto; }
+        .wrapperContainer .mainContent .rightContent form #createAccount a {
+          font-family: 'helveticaneuebold';
+          font-size: 18px;
+          width: 218px;
+          height: 44px;
+          display: block;
+          margin: 0 auto;
+          color: #fff; }
+  .wrapperContainer #footer {
+    margin-top: -50px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    padding-top: 20px; }
+    .wrapperContainer #footer p {
+      color: #fff;
+      position: relative;
+      top: 50px;
+      font-size: 12px;
+      font-family: 'HelveticaNeue'; }
+    .wrapperContainer #footer ul {
+      position: relative;
+      right: -550px;
+      list-style: none; }
+      .wrapperContainer #footer ul li {
+        float: left;
+        padding-right: 5px; }
+
+/*# sourceMappingURL=style.css.map */
